@@ -1,0 +1,80 @@
+[0.529s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.531s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f781d06f940>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f781d1b8c70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f781d1b8c70>>)
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.817s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.818s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.856s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.catkin' and name 'ros_tcp_endpoint'
+[0.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.856s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.857s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.857s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.857s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.880s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.880s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.884s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[0.927s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[0.927s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.927s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.927s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint', 'symlink_install': False, 'test_result_base': None}
+[0.927s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.929s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint' with build type 'catkin'
+[0.929s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint'
+[0.935s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.936s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/build/ros_tcp_endpoint': /usr/bin/cmake /mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint
+[3.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/build/ros_tcp_endpoint' returned '1': /usr/bin/cmake /mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint
+[3.824s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[3.829s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint' for CMake module files
+[3.877s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint' for CMake config files
+[3.899s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/bin'
+[3.901s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[3.902s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages'
+[3.903s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/bin'
+[3.904s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[3.924s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[3.968s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[3.979s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[3.990s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[4.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[4.021s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.031s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[4.033s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.164s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.165s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.165s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.165s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.166s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/0/bus: No such file or directory
+[4.166s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/local_setup.ps1'
+[4.172s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/_local_setup_util_ps1.py'
+[4.184s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/setup.ps1'
+[4.218s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/local_setup.sh'
+[4.232s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/_local_setup_util_sh.py'
+[4.242s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/setup.sh'
+[4.254s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/local_setup.bash'
+[4.276s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/setup.bash'
+[4.299s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/local_setup.zsh'
+[4.310s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/setup.zsh'

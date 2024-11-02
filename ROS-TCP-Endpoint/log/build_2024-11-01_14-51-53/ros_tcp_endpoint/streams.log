@@ -1,0 +1,29 @@
+[0.123s] Invoking command in '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/build/ros_tcp_endpoint': /usr/bin/cmake /mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint
+[0.173s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.174s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.175s]   CMake.
+[0.175s] 
+[0.176s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.177s]   CMake that the project does not need compatibility with older versions.
+[0.177s] 
+[0.178s] [0m
+[2.833s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[2.834s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.835s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.835s]   CMake did not find one.
+[2.836s] 
+[2.837s]   Could not find a package configuration file provided by "catkin" with any
+[2.838s]   of the following names:
+[2.839s] 
+[2.840s]     catkinConfig.cmake
+[2.840s]     catkin-config.cmake
+[2.841s] 
+[2.842s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.842s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.843s]   provides a separate development package or SDK, be sure it has been
+[2.844s]   installed.
+[2.844s] 
+[2.845s] [0m
+[2.845s] -- Configuring incomplete, errors occurred!
+[2.846s] See also "/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/CMakeFiles/CMakeOutput.log".
+[2.869s] Invoked command in '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/build/ros_tcp_endpoint' returned '1': /usr/bin/cmake /mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint

@@ -1,0 +1,41 @@
+[0.081s] Invoking command in '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/build/ros_tcp_endpoint': /usr/bin/cmake /mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint
+[0.096s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.097s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.111s]   CMake.
+[0.112s] 
+[0.115s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.119s]   CMake that the project does not need compatibility with older versions.
+[0.122s] 
+[0.124s] [0m
+[0.659s] -- The C compiler identification is GNU 11.4.0
+[2.409s] -- The CXX compiler identification is GNU 11.4.0
+[4.052s] -- Detecting C compiler ABI info
+[5.227s] -- Detecting C compiler ABI info - done
+[5.253s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.255s] -- Detecting C compile features
+[5.261s] -- Detecting C compile features - done
+[5.356s] -- Detecting CXX compiler ABI info
+[6.586s] -- Detecting CXX compiler ABI info - done
+[6.614s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.617s] -- Detecting CXX compile features
+[6.620s] -- Detecting CXX compile features - done
+[9.751s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[9.752s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[9.753s]   asked CMake to find a package configuration file provided by "catkin", but
+[9.753s]   CMake did not find one.
+[9.754s] 
+[9.755s]   Could not find a package configuration file provided by "catkin" with any
+[9.756s]   of the following names:
+[9.756s] 
+[9.758s]     catkinConfig.cmake
+[9.759s]     catkin-config.cmake
+[9.762s] 
+[9.763s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[9.764s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[9.766s]   provides a separate development package or SDK, be sure it has been
+[9.767s]   installed.
+[9.769s] 
+[9.775s] [0m
+[9.776s] -- Configuring incomplete, errors occurred!
+[9.778s] See also "/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/CMakeFiles/CMakeOutput.log".
+[9.779s] Invoked command in '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/build/ros_tcp_endpoint' returned '1': /usr/bin/cmake /mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint

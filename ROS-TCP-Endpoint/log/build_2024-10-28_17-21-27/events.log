@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.001262] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.002192] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.062954] (ros_tcp_endpoint) JobProgress: {'identifier': 'ros_tcp_endpoint', 'progress': 'cmake'}
+[0.095932] (-) TimerEvent: {}
+[0.121285] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/install/ros_tcp_endpoint'], 'cwd': '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/build/ros_tcp_endpoint', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'kyo'), ('WSL_INTEROP', '/run/WSL/321_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/e/vmware/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.1/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/Kyomoto/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/Kyomoto/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/Kyomoto/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/Kyomoto/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/ProgramData/anaconda3/python.exe:/mnt/c/Users/Kyomoto/AppData/Local/Microsoft/WindowsApps:/mnt/e/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/Kyomoto/AppData/Local/Programs/Python:/mnt/e/pycharm/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/e/android-sdk/cmdline-tools/bin/platform-tools:/mnt/c/Users/Kyomoto/AppData/Local/spicetify:/mnt/c/Users/Kyomoto/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/site-packages/cmake:/mnt/c/Users/Kyomoto/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/site-packages/googletrans:/mnt/c/Program Files/VideoLAN/VLC:/mnt/c/Program Files/CMake/bin:/mnt/c/opencv/build/include:/mnt/c/opencv/build/x64/vc14/bin:/mnt/c/opencv/build/x64/vc14/lib:/mnt/c/opencv/build/x64/vc15/bin:/mnt/c/opencv/build/x64/vc15/lib:/mnt/c/opencv/build/bin:/mnt/c/Users/Kyomoto/AppData/Local/:/mnt/c/Users/Kyomoto/AppData/Roaming/npm:/mnt/c/Users/Kyomoto/AppData/Local/Programs/Ollama:/mnt/c/Users/Kyomoto/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.0-full_build/bin:/mnt/e/Quartus/modelsim_ase/win32aloem:/mnt/e/Quartus/questa_fse/win64:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/build/ros_tcp_endpoint'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.187394] (ros_tcp_endpoint) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.191391] (ros_tcp_endpoint) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.194903] (ros_tcp_endpoint) StderrLine: {'line': b'  CMake.\n'}
+[0.197931] (-) TimerEvent: {}
+[0.198967] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[0.202777] (ros_tcp_endpoint) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.207236] (ros_tcp_endpoint) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.211305] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[0.214867] (ros_tcp_endpoint) StderrLine: {'line': b'\x1b[0m\n'}
+[0.298365] (-) TimerEvent: {}
+[0.400174] (-) TimerEvent: {}
+[0.501697] (-) TimerEvent: {}
+[0.603072] (-) TimerEvent: {}
+[0.704766] (-) TimerEvent: {}
+[0.806459] (-) TimerEvent: {}
+[0.907631] (-) TimerEvent: {}
+[1.009115] (-) TimerEvent: {}
+[1.110537] (-) TimerEvent: {}
+[1.211841] (-) TimerEvent: {}
+[1.313319] (-) TimerEvent: {}
+[1.414446] (-) TimerEvent: {}
+[1.516068] (-) TimerEvent: {}
+[1.617743] (-) TimerEvent: {}
+[1.719032] (-) TimerEvent: {}
+[1.821303] (-) TimerEvent: {}
+[1.922326] (-) TimerEvent: {}
+[2.023767] (-) TimerEvent: {}
+[2.127147] (-) TimerEvent: {}
+[2.228901] (-) TimerEvent: {}
+[2.330273] (-) TimerEvent: {}
+[2.431715] (-) TimerEvent: {}
+[2.533028] (-) TimerEvent: {}
+[2.634512] (-) TimerEvent: {}
+[2.736150] (-) TimerEvent: {}
+[2.837465] (-) TimerEvent: {}
+[2.938910] (-) TimerEvent: {}
+[3.039926] (-) TimerEvent: {}
+[3.141224] (-) TimerEvent: {}
+[3.242519] (-) TimerEvent: {}
+[3.343864] (-) TimerEvent: {}
+[3.445292] (-) TimerEvent: {}
+[3.546826] (-) TimerEvent: {}
+[3.647936] (-) TimerEvent: {}
+[3.749315] (-) TimerEvent: {}
+[3.850603] (-) TimerEvent: {}
+[3.951939] (-) TimerEvent: {}
+[4.054336] (-) TimerEvent: {}
+[4.155844] (-) TimerEvent: {}
+[4.257059] (-) TimerEvent: {}
+[4.359023] (-) TimerEvent: {}
+[4.460791] (-) TimerEvent: {}
+[4.562676] (-) TimerEvent: {}
+[4.664110] (-) TimerEvent: {}
+[4.765562] (-) TimerEvent: {}
+[4.866940] (-) TimerEvent: {}
+[4.968357] (-) TimerEvent: {}
+[5.069928] (-) TimerEvent: {}
+[5.171800] (-) TimerEvent: {}
+[5.273521] (-) TimerEvent: {}
+[5.375528] (-) TimerEvent: {}
+[5.478573] (-) TimerEvent: {}
+[5.580769] (-) TimerEvent: {}
+[5.682990] (-) TimerEvent: {}
+[5.785264] (-) TimerEvent: {}
+[5.888714] (-) TimerEvent: {}
+[5.990986] (-) TimerEvent: {}
+[6.093267] (-) TimerEvent: {}
+[6.195493] (-) TimerEvent: {}
+[6.297353] (-) TimerEvent: {}
+[6.399125] (-) TimerEvent: {}
+[6.500872] (-) TimerEvent: {}
+[6.602502] (-) TimerEvent: {}
+[6.739210] (-) TimerEvent: {}
+[6.840401] (-) TimerEvent: {}
+[6.941530] (-) TimerEvent: {}
+[7.043145] (-) TimerEvent: {}
+[7.145036] (-) TimerEvent: {}
+[7.246723] (-) TimerEvent: {}
+[7.347977] (-) TimerEvent: {}
+[7.450039] (-) TimerEvent: {}
+[7.551677] (-) TimerEvent: {}
+[7.653689] (-) TimerEvent: {}
+[7.755509] (-) TimerEvent: {}
+[7.857378] (-) TimerEvent: {}
+[7.959184] (-) TimerEvent: {}
+[8.060517] (-) TimerEvent: {}
+[8.164923] (-) TimerEvent: {}
+[8.266674] (-) TimerEvent: {}
+[8.368147] (-) TimerEvent: {}
+[8.469712] (-) TimerEvent: {}
+[8.570956] (-) TimerEvent: {}
+[8.672434] (-) TimerEvent: {}
+[8.773850] (-) TimerEvent: {}
+[8.875269] (-) TimerEvent: {}
+[8.976678] (-) TimerEvent: {}
+[9.078131] (-) TimerEvent: {}
+[9.179590] (-) TimerEvent: {}
+[9.280933] (-) TimerEvent: {}
+[9.383140] (-) TimerEvent: {}
+[9.485150] (-) TimerEvent: {}
+[9.587515] (-) TimerEvent: {}
+[9.689901] (-) TimerEvent: {}
+[9.791945] (-) TimerEvent: {}
+[9.893488] (-) TimerEvent: {}
+[9.994873] (-) TimerEvent: {}
+[10.096758] (-) TimerEvent: {}
+[10.199114] (-) TimerEvent: {}
+[10.300637] (-) TimerEvent: {}
+[10.402390] (-) TimerEvent: {}
+[10.503727] (-) TimerEvent: {}
+[10.605361] (-) TimerEvent: {}
+[10.706395] (-) TimerEvent: {}
+[10.807847] (-) TimerEvent: {}
+[10.908981] (-) TimerEvent: {}
+[11.010007] (-) TimerEvent: {}
+[11.111134] (-) TimerEvent: {}
+[11.212273] (-) TimerEvent: {}
+[11.313770] (-) TimerEvent: {}
+[11.415329] (-) TimerEvent: {}
+[11.516810] (-) TimerEvent: {}
+[11.618588] (-) TimerEvent: {}
+[11.720041] (-) TimerEvent: {}
+[11.821111] (-) TimerEvent: {}
+[11.922578] (-) TimerEvent: {}
+[11.950171] (ros_tcp_endpoint) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[11.954934] (ros_tcp_endpoint) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[11.957859] (ros_tcp_endpoint) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[11.960967] (ros_tcp_endpoint) StderrLine: {'line': b'  CMake did not find one.\n'}
+[11.963869] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[11.976421] (ros_tcp_endpoint) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[11.990529] (ros_tcp_endpoint) StderrLine: {'line': b'  of the following names:\n'}
+[11.994460] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[11.998687] (ros_tcp_endpoint) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[12.002797] (ros_tcp_endpoint) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[12.007001] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[12.010684] (ros_tcp_endpoint) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[12.015808] (ros_tcp_endpoint) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[12.019668] (ros_tcp_endpoint) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[12.023161] (-) TimerEvent: {}
+[12.024460] (ros_tcp_endpoint) StderrLine: {'line': b'  installed.\n'}
+[12.029070] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[12.032177] (ros_tcp_endpoint) StderrLine: {'line': b'\x1b[0m\n'}
+[12.035631] (ros_tcp_endpoint) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[12.041259] (ros_tcp_endpoint) StdoutLine: {'line': b'See also "/mnt/c/Users/Kyomoto/main_ws/unity_asv_sim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/CMakeFiles/CMakeOutput.log".\n'}
+[12.045996] (ros_tcp_endpoint) CommandEnded: {'returncode': 1}
+[12.123561] (-) TimerEvent: {}
+[12.224550] (-) TimerEvent: {}
+[12.325774] (-) TimerEvent: {}
+[12.427201] (-) TimerEvent: {}
+[12.528611] (-) TimerEvent: {}
+[12.631108] (-) TimerEvent: {}
+[12.657521] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 1}
+[12.703369] (-) EventReactorShutdown: {}
