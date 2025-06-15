@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000761] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.001447] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.097898] (-) TimerEvent: {}
+[0.198732] (-) TimerEvent: {}
+[0.303029] (-) TimerEvent: {}
+[0.403785] (-) TimerEvent: {}
+[0.522053] (-) TimerEvent: {}
+[0.625052] (-) TimerEvent: {}
+[0.725476] (-) TimerEvent: {}
+[0.826042] (-) TimerEvent: {}
+[0.926870] (-) TimerEvent: {}
+[1.028329] (-) TimerEvent: {}
+[1.128857] (-) TimerEvent: {}
+[1.229551] (-) TimerEvent: {}
+[1.333369] (-) TimerEvent: {}
+[1.434301] (-) TimerEvent: {}
+[1.534882] (-) TimerEvent: {}
+[1.570322] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/ros_tcp_endpoint', 'build', '--build-base', '/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build', 'install', '--record', '/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/install.log', '--install-scripts', '$base/lib/ros_tcp_endpoint', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/root', 'OLDPWD': '/mnt/c/Users/Kyomoto/asvsim', 'NVM_BIN': '/root/.nvm/versions/node/v16.20.2/bin', 'NVM_INC': '/root/.nvm/versions/node/v16.20.2/include/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'NVM_DIR': '/root/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'root', 'NAME': 'kyo', 'WSL_INTEROP': '/run/WSL/1369_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'LIBGL_ALWAYS_INDIRECT': '0', 'PATH': '/root/.nvm/versions/node/v16.20.2/bin:/root/.cargo/bin:/root/.local/share/dfx/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/glzr.io/GlazeWM/cli:/mnt/e/vmware/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.3.1/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/glzr.io/Zebar/:/mnt/c/Users/Kyomoto/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/Kyomoto/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/Kyomoto/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/Kyomoto/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/Kyomoto/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/ProgramData/anaconda3/python.exe:/mnt/c/Users/Kyomoto/AppData/Local/Microsoft/WindowsApps:/mnt/e/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/Kyomoto/AppData/Local/Programs/Python:/mnt/e/pycharm/PyCharm Community Edition 2023.2.1/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/e/android-sdk/cmdline-tools/bin/platform-tools:/mnt/c/Users/Kyomoto/AppData/Local/spicetify:/mnt/c/Users/Kyomoto/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/site-packages/cmake:/mnt/c/Users/Kyomoto/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/site-packages/googletrans:/mnt/c/Program Files/VideoLAN/VLC:/mnt/c/Program Files/CMake/bin:/mnt/c/opencv/build/include:/mnt/c/opencv/build/x64/vc14/bin:/mnt/c/opencv/build/x64/vc14/lib:/mnt/c/opencv/build/x64/vc15/bin:/mnt/c/opencv/build/x64/vc15/lib:/mnt/c/opencv/build/bin:/mnt/c/Users/Kyomoto/AppData/Local/:/mnt/c/Users/Kyomoto/AppData/Roaming/npm:/mnt/c/Users/Kyomoto/AppData/Local/Programs/Ollama:/mnt/c/Users/Kyomoto/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.0-full_build/bin:/mnt/e/Quartus/modelsim_ase/win32aloem:/mnt/c/Users/Kyomoto/.dotnet/tools:/mnt/c/Users/Kyomoto/.cache/lm-studio/bin:/mnt/c/Users/Kyomoto/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin', 'WT_SESSION': 'ea50bd2d-c0a9-4aa7-8590-51a06dd219f6', 'XDG_RUNTIME_DIR': '/run/user/0/', 'DISPLAY': '10.255.255.254:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.634963] (-) TimerEvent: {}
+[1.735402] (-) TimerEvent: {}
+[1.835812] (-) TimerEvent: {}
+[1.936232] (-) TimerEvent: {}
+[1.975896] (ros_tcp_endpoint) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[1.976569] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[1.977110] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[1.977618] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.978119] (ros_tcp_endpoint) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[1.978530] (ros_tcp_endpoint) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[1.978992] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[1.979932] (ros_tcp_endpoint) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[1.980335] (ros_tcp_endpoint) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[1.980773] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[1.981238] (ros_tcp_endpoint) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[1.982933] (ros_tcp_endpoint) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.983353] (ros_tcp_endpoint) StderrLine: {'line': b'\n'}
+[1.983748] (ros_tcp_endpoint) StderrLine: {'line': b'!!\n'}
+[1.984182] (ros_tcp_endpoint) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[2.036398] (-) TimerEvent: {}
+[2.137002] (-) TimerEvent: {}
+[2.154866] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[2.172406] (ros_tcp_endpoint) StdoutLine: {'line': b'writing build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[2.179140] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[2.185462] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[2.190830] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt\n'}
+[2.194444] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[2.237077] (-) TimerEvent: {}
+[2.253289] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file 'build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[2.337213] (-) TimerEvent: {}
+[2.359273] (ros_tcp_endpoint) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.383068] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file 'build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[2.385893] (ros_tcp_endpoint) StdoutLine: {'line': b'running build\n'}
+[2.387260] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_py\n'}
+[2.437334] (-) TimerEvent: {}
+[2.538426] (-) TimerEvent: {}
+[2.639856] (-) TimerEvent: {}
+[2.741458] (-) TimerEvent: {}
+[2.781474] (ros_tcp_endpoint) StdoutLine: {'line': b'running install\n'}
+[2.787340] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_lib\n'}
+[2.841674] (-) TimerEvent: {}
+[2.942456] (-) TimerEvent: {}
+[3.042862] (-) TimerEvent: {}
+[3.120491] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[3.143003] (-) TimerEvent: {}
+[3.174339] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.192885] (ros_tcp_endpoint) StdoutLine: {'line': b"removing '/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[3.243161] (-) TimerEvent: {}
+[3.246003] (ros_tcp_endpoint) StdoutLine: {'line': b'Copying build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info\n'}
+[3.343469] (-) TimerEvent: {}
+[3.447069] (-) TimerEvent: {}
+[3.486571] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_scripts\n'}
+[3.547185] (-) TimerEvent: {}
+[3.647636] (-) TimerEvent: {}
+[3.761030] (-) TimerEvent: {}
+[3.804149] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[3.812490] (ros_tcp_endpoint) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/install.log'\n"}
+[3.828871] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[3.861113] (-) TimerEvent: {}
+[3.961461] (-) TimerEvent: {}
+[4.021625] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[4.050508] (-) EventReactorShutdown: {}

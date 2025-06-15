@@ -1,0 +1,2 @@
+Invoking command in '/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint': /usr/bin/cmake /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint
+Invoked command in '/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint' returned '1': /usr/bin/cmake /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint

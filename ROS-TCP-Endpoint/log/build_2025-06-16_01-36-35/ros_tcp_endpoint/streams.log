@@ -1,0 +1,41 @@
+[0.052s] Invoking command in '/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint': /usr/bin/cmake /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint
+[0.074s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.079s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.082s]   CMake.
+[0.094s] 
+[0.095s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.096s]   CMake that the project does not need compatibility with older versions.
+[0.097s] 
+[0.099s] [0m
+[0.589s] -- The C compiler identification is GNU 11.4.0
+[1.784s] -- The CXX compiler identification is GNU 11.4.0
+[2.417s] -- Detecting C compiler ABI info
+[3.353s] -- Detecting C compiler ABI info - done
+[3.403s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.406s] -- Detecting C compile features
+[3.417s] -- Detecting C compile features - done
+[3.501s] -- Detecting CXX compiler ABI info
+[4.547s] -- Detecting CXX compiler ABI info - done
+[4.586s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.587s] -- Detecting CXX compile features
+[4.589s] -- Detecting CXX compile features - done
+[7.502s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[7.502s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[7.503s]   asked CMake to find a package configuration file provided by "catkin", but
+[7.504s]   CMake did not find one.
+[7.504s] 
+[7.509s]   Could not find a package configuration file provided by "catkin" with any
+[7.510s]   of the following names:
+[7.513s] 
+[7.513s]     catkinConfig.cmake
+[7.514s]     catkin-config.cmake
+[7.515s] 
+[7.522s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[7.523s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[7.526s]   provides a separate development package or SDK, be sure it has been
+[7.527s]   installed.
+[7.528s] 
+[7.529s] [0m
+[7.530s] -- Configuring incomplete, errors occurred!
+[7.531s] See also "/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/CMakeFiles/CMakeOutput.log".
+[7.532s] Invoked command in '/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint' returned '1': /usr/bin/cmake /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint

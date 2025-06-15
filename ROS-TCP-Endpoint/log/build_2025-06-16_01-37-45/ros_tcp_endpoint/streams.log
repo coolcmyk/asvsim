@@ -1,0 +1,85 @@
+[1.187s] Invoking command in '/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint': PYTHONPATH=/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ros_tcp_endpoint build --build-base /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build install --record /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[1.828s] /usr/local/lib/python3.10/dist-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.830s] !!
+[1.832s] 
+[1.834s]         ********************************************************************************
+[1.835s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.837s]         versions. Please use the underscore name 'script_dir' instead.
+[1.838s] 
+[1.840s]         This deprecation is overdue, please update your project and remove deprecated
+[1.841s]         calls to avoid build errors in the future.
+[1.842s] 
+[1.844s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.845s]         ********************************************************************************
+[1.846s] 
+[1.847s] !!
+[1.856s]   opt = self.warn_dash_deprecation(opt, section)
+[1.931s] running egg_info
+[1.933s] creating build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info
+[1.942s] writing build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[1.961s] writing dependency_links to build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[1.972s] writing entry points to build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[1.980s] writing requirements to build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[1.983s] writing top-level names to build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[1.990s] writing manifest file 'build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[2.065s] reading manifest file 'build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[2.095s] adding license file 'LICENSE'
+[2.119s] writing manifest file 'build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[2.120s] running build
+[2.122s] running build_py
+[2.125s] creating /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build
+[2.126s] creating /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib
+[2.127s] creating /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[2.139s] copying ros_tcp_endpoint/client.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[2.154s] copying ros_tcp_endpoint/communication.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[2.185s] copying ros_tcp_endpoint/default_server_endpoint.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[2.207s] copying ros_tcp_endpoint/exceptions.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[2.224s] copying ros_tcp_endpoint/publisher.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[2.240s] copying ros_tcp_endpoint/server.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[2.264s] copying ros_tcp_endpoint/service.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[2.291s] copying ros_tcp_endpoint/subscriber.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[2.309s] copying ros_tcp_endpoint/tcp_sender.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[2.342s] copying ros_tcp_endpoint/thread_pauser.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[2.417s] copying ros_tcp_endpoint/unity_service.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[2.489s] copying ros_tcp_endpoint/__init__.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[2.503s] running install
+[2.510s] running install_lib
+[2.531s] creating /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[2.542s] copying /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[2.583s] copying /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[2.614s] copying /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[2.662s] copying /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[2.693s] copying /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[2.716s] copying /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[2.740s] copying /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[2.770s] copying /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[2.787s] copying /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[2.824s] copying /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[2.857s] copying /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[2.884s] copying /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[2.910s] byte-compiling /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/client.py to client.cpython-310.pyc
+[2.953s] byte-compiling /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-310.pyc
+[2.999s] byte-compiling /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-310.pyc
+[3.042s] byte-compiling /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-310.pyc
+[3.077s] byte-compiling /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-310.pyc
+[3.132s] byte-compiling /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/server.py to server.cpython-310.pyc
+[3.175s] byte-compiling /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/service.py to service.cpython-310.pyc
+[3.213s] byte-compiling /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-310.pyc
+[3.251s] byte-compiling /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-310.pyc
+[3.350s] byte-compiling /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-310.pyc
+[3.388s] byte-compiling /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-310.pyc
+[3.442s] byte-compiling /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-310.pyc
+[3.465s] running install_data
+[3.566s] creating /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/share/ament_index
+[3.573s] creating /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/share/ament_index/resource_index
+[3.578s] creating /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[3.592s] copying resource/ros_tcp_endpoint -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[3.611s] copying package.xml -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[3.625s] creating /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[3.634s] copying launch/endpoint.py -> /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[3.643s] running install_egg_info
+[3.669s] Copying build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info
+[3.877s] running install_scripts
+[4.092s] Installing default_server_endpoint script to /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[4.100s] writing list of installed files to '/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/install.log'
+[4.118s] Invoked command in '/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ros_tcp_endpoint build --build-base /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/build install --record /mnt/c/Users/Kyomoto/asvsim/ROS-TCP-Endpoint/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
