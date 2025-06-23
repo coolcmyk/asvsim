@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: ros_tcp_endpoint
+Version: 0.0.1
+Summary: ROS TCP Endpoint Unity Integration (ROS2 version)
+Maintainer: Unity Robotics
+Maintainer-email: unity-robotics@unity3d.com
+License: Apache 2.0
+License-File: LICENSE
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: license-file
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

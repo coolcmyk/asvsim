@@ -12,14 +12,14 @@ if ($env:COLCON_PYTHON_EXECUTABLE) {
   $_colcon_python_executable="$env:COLCON_PYTHON_EXECUTABLE"
 } else {
   # use the Python executable known at configure time
-  $_colcon_python_executable="/usr/bin/python3"
+  $_colcon_python_executable="C:\Users\Kyomoto\asvsim\robostack\.pixi\envs\humble\python.exe"
   # if it doesn't exist try a fall back
   if (!(Test-Path "$_colcon_python_executable" -PathType Leaf)) {
-    if (!(Get-Command "python3" -ErrorAction SilentlyContinue)) {
-      echo "error: unable to find python3 executable"
+    if (!(Get-Command "python" -ErrorAction SilentlyContinue)) {
+      echo "error: unable to find python executable"
       exit 1
     }
-    $_colcon_python_executable="python3"
+    $_colcon_python_executable="python"
   }
 }
 

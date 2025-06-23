@@ -26,15 +26,19 @@ public class ShipController : MonoBehaviour
         public TextMeshProUGUI currentAngleText;
         public TextMeshProUGUI currentThrustText;
     }
-    
+
+    #region publicVars    
     public Vector2 forceClamp = new Vector2(-500f, 2750f);
     public float forceMultiplier = 100f;
     public float rotationMultiplier = 10f;
     public bool holdingRudder = false;
     public bool debug = false;
-    
     public UIText UI;
-    
+
+    #endregion publicVars   
+
+
+    #region privateVars
     private List<EnginePropellerPair> enginePropellerPairs = new List<EnginePropellerPair>();
     private Transform savedPropulsionRoot;
     private InputActions inputActions;
@@ -42,6 +46,7 @@ public class ShipController : MonoBehaviour
     private Vector2 rotateValue;
     private Rigidbody parentRigidbody;
     //private float propellerRotationCoefficient = 1.0f;
+    [SerializeField] private float _topicUpdateThreshold = 0.5f; //custom var for topic threshold management
 
     
     private Vector3 savedInitialPosition;
@@ -52,7 +57,8 @@ public class ShipController : MonoBehaviour
     
     private float engineRotationLimit  = 25;
     private Vector3 startDirection;
-    
+
+    #endregion privateVars    
     struct EnginePropellerPair
     {
         public GameObject EngineJoint;
@@ -93,14 +99,28 @@ public class ShipController : MonoBehaviour
         }
     }
 
-    
+    #region FixedUpdate    
     private void FixedUpdate()
     {
-        float rightTriggerValue = inputActions.Ship.PositivePropulsion.ReadValue<float>();
-        float leftTriggerValue = inputActions.Ship.NegativePropulsion.ReadValue<float>();
-        float netForce = rightTriggerValue - leftTriggerValue; // Net force is in the range of -1 to 1.
-        float leftStickValue = inputActions.Ship.Rudder.ReadValue<Vector2>().x;
-        
+        float netForce;  // Net force is in the range of -1 to 1.
+        float leftStickValue;
+        float _currentTime = Time.time;
+        //Check if we have any CoreController Topic going on by using timeout mechanism with customizable threshold of _topicUpdateThreshold
+        //delta > threshold = joystick
+        //delta < threshold = core publisher
+        if ((_currentTime - _latestTopicUpdated) > _topicUpdateThreshold)
+        {
+            float rightTriggerValue = inputActions.Ship.PositivePropulsion.ReadValue<float>();
+            float leftTriggerValue = inputActions.Ship.NegativePropulsion.ReadValue<float>();
+            netForce = rightTriggerValue - leftTriggerValue;
+            leftStickValue = inputActions.Ship.Rudder.ReadValue<Vector2>().x;
+        }
+        else
+        {
+            netForce = latestLinVel;
+            leftStickValue = latestAngVel;
+        }
+
         if (savedPropulsionRoot) WorkOnJoints(leftStickValue, netForce);
         
         if (UI.forceText) UI.forceText.text = "Force: " + netForce.ToString("F2");
@@ -109,6 +129,7 @@ public class ShipController : MonoBehaviour
         if (UI.currentThrustText) UI.currentThrustText.text = "Current Force: " + currentThrust.ToString("F0");
         if (UI.currentSpinText) UI.currentSpinText.text = "Current Spin: " + (currentSpin / Time.deltaTime).ToString("F0") + " degrees/frame";
         }
+    #endregion FixedUpdate
     
     
     /// Find all engine joints as children of the propulsion object and populate the list
@@ -155,19 +176,36 @@ public class ShipController : MonoBehaviour
             }
         }
     }
+
+    #region CoreController
+
+    private float latestLinVel = 0.0f;
+    private float latestAngVel = 0.0f;
+    private float _latestTopicUpdated;
+
+    /// <summary>
+    /// Setter for CoreController.cs
+    /// </summary>
+    public void SetVel(float linVel, float angVel)
+    {
+        latestLinVel = linVel;
+        latestAngVel = angVel;
+        _latestTopicUpdated = Time.time;
+    }
     
-    
+    #endregion CoreController
+
     /// Apply force to the global parent rigidbody at the propeller joint position 
     private void ApplyForce(float force, EnginePropellerPair pair)
     {
         float finalForce = force * forceMultiplier;
         currentThrust = finalForce = Mathf.Clamp(finalForce, forceClamp.x, forceClamp.y);
-        
-        Vector3 direction = pair.EngineJoint.transform.forward; 
+
+        Vector3 direction = pair.EngineJoint.transform.forward;
         Vector3 position = pair.PropellerJoint.transform.position;
-        
+
         parentRigidbody.AddForceAtPosition(direction * finalForce, position);
-        
+
         // Draw force vector
         if (debug)
         {
